@@ -16,13 +16,8 @@ module.exports = function (app) {
     //A POST routes /api/friends. This will be used to handle incoming survey results. This route will also be used to handle the compatibility logic.
     app.post("/api/friends", function (req, res) {
         // code goese here
-        // if (friendsData.length < 5) {
             friendsData.push(req.body);
-            res.json(true);
-        //   }
-        //   else {
-            // waitListData.push(req.body);
-            // res.json(false);
-        //   }
+            // res.json(true);
+   
     });
 }
