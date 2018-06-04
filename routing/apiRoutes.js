@@ -11,10 +11,18 @@ module.exports = function (app) {
     // In each of the below cases, when a user submits form data (a JSON object)
     // ...the JSON is pushed to the appropriate JavaScript array
     // (ex. User fills out a reservation request... this data is then sent to the server...
-    // Then the server saves the data to the tableData array)
+    // Then the server saves the data to the friendsData array)
 
     //A POST routes /api/friends. This will be used to handle incoming survey results. This route will also be used to handle the compatibility logic.
     app.post("/api/friends", function (req, res) {
         // code goese here
+        // if (friendsData.length < 5) {
+            friendsData.push(req.body);
+            res.json(true);
+        //   }
+        //   else {
+            // waitListData.push(req.body);
+            // res.json(false);
+        //   }
     });
 }
