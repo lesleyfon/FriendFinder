@@ -19,4 +19,4 @@ a "friend" that has the closest match to their personality.
 
 ## Authors
 
-* **Lesley Fonsi** - *HTML/JS/Node.js* - [Lesleuy Fonsi](https://github.com/lesleyfon/FriendFinder)
+* **Lesley Fonsi** - *HTML/JS/Node.js* - [Lesley Fonsi](https://github.com/lesleyfon/FriendFinder)
