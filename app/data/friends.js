@@ -8,7 +8,7 @@
 var friendsArr = [
     {
         "name": "Lesley",
-        "photo": "https://www.fuse.tv/image/518bc463bc5dde496500001f/768/512/snoop-dogg-tupac-hip-hop-fashion-evolution.jpg",
+        "photo": "https://pixel.nymag.com/imgs/daily/vulture/2018/05/30/30-drake.w190.h190.jpg",
         "scores": [
             "5",
             "1",
@@ -25,7 +25,7 @@ var friendsArr = [
     },
     {
         "name": "Fonsi",
-        "photo": "https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+        "photo": "https://pixel.nymag.com/imgs/daily/vulture/2018/05/30/30-drake.w190.h190.jpg",
         "scores": [
             "1",
             "5",

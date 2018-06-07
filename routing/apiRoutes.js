@@ -42,11 +42,11 @@ module.exports = function (app) {
                     //  console.log(difference)
                     
                 };
-               if(difference < bestFriend.difference) {
+            //    if(difference < bestFriend.difference) {
                     bestFriend.name = curFriend.name;
                     bestFriend.photo = curFriend.photo;
                     bestFriend.difference = difference;
-               }
+            //    }
             }
 
 
