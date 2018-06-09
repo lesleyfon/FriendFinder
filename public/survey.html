@@ -6,25 +6,68 @@
     <title>Survey</title>
     <!-- Latest compiled and minified CSS & JS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://code.jquery.com/jquery.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
     <!-- google cdn for jquery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <style>
+        body {
+            background: url("https://wallpapercave.com/wp/H8l0DgY.jpg");
+            /* background-repeat: no-repeat ; */
+            height: 100%;
+            width: 100%;
+            /* background-size:; */
+        }
 
-
+        .jumbotron {
+            opacity: .8;
+        }
+    </style>
 </head>
 
 <body>
 
     <div class="container">
+        <div class="jumbotron">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <h1>
+                            <span class="glyphicon glyphicon-th-list"></span> Survey Options</h1>
+                        <hr>
+                        <div class="text-center">
+                            <a href="/public/home.html">
+                                <button class="btn btn-lg btn-primary">
 
-        <h1>Survey Options</h1>
-        <hr>
-        <div class="row">
-
+                                    <span class="glyphicon glyphicon-home"></span> Home </button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- glyphicon glyphicon-th-lis -->
+        <!-- <div class="row">
             <div class="col-lg-12">
+                <h1>Survey Options</h1>
+                <hr>
+                <div class="text-center">
+                    <a href="/public/home.html">
+                        <button class="btn btn-lg btn-primary">
 
+                            <span class="glyphicon glyphicon-home"></span> Home </button>
+                    </a>
+                </div>
+            </div>
+        </div> -->
+        <div class="row">
+            <div class="col-lg-12">
                 <div class="panel panel-default">
                     <div class="panel-heading">
                         <h3 class="panel-title">
@@ -46,8 +89,18 @@
                         </form>
                         <hr>
                         <br>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">
+                            <strong>Survey Questions.</strong>
+                        </h3>
+                    </div>
+                    <div class="panel-body">
                         <div class="input-field col s12">
                             <h3>Question 1</h3>
+                            <h5>Your mind is always buzzing with unexplored ideas and plans.</h5>
                             <select id="question1">
                                 <option value="" disabled selected>Choose your option</option>
                                 <option value="1">1 (Strongly Disagree)</option>
@@ -60,6 +113,7 @@
                         <br>
                         <div class="input-field col s12">
                             <h3>Question 2</h3>
+                            <h5>Generally speaking, you rely more on your experience than your imagination.</h5>
                             <select id="question2">
                                 <option value="" disabled selected>Choose your option</option>
                                 <option value="1">1 (Strongly Disagree)</option>
@@ -73,6 +127,7 @@
 
                         <div class="input-field col s12">
                             <h3>Question 3</h3>
+                            <h5>You find it easy to stay relaxed and focused even when there is some pressure.</h5>
                             <select id="question3">
                                 <option value="" disabled selected>Choose your option</option>
                                 <option value="1">1 (Strongly Disagree)</option>
@@ -86,6 +141,7 @@
 
                         <div class="input-field col s12">
                             <h3>Question 4</h3>
+                            <h5>You rarely do something just out of sheer curiosity.</h5>
                             <select id="question4">
                                 <option value="" disabled selected>Choose your option</option>
                                 <option value="1">1 (Strongly Disagree)</option>
@@ -99,6 +155,7 @@
 
                         <div class="input-field col s12">
                             <h3>Question 5</h3>
+                            <h5>People can rarely upset you.</h5>
                             <select id="question5">
                                 <option value="" disabled selected>Choose your option</option>
                                 <option value="1">1 (Strongly Disagree)</option>
@@ -112,6 +169,7 @@
 
                         <div class="input-field col s12">
                             <h3>Question 6</h3>
+                            <h5>It is often difficult for you to relate to other people’s feelings.</h5>
                             <select id="question6">
                                 <option value="" disabled selected>Choose your option</option>
                                 <option value="1">1 (Strongly Disagree)</option>
@@ -125,6 +183,7 @@
 
                         <div class="input-field col s12">
                             <h3>Question 7</h3>
+                            <h5>In a discussion, truth should be more important than people’s sensitivities.</h5>
                             <select id="question7">
                                 <option value="" disabled selected>Choose your option</option>
                                 <option value="1">1 (Strongly Disagree)</option>
@@ -138,6 +197,7 @@
 
                         <div class="input-field col s12">
                             <h3>Question 8</h3>
+                            <h5>You rarely get carried away by fantasies and ideas.</h5>
                             <select id="question8">
                                 <option value="" disabled selected>Choose your option</option>
                                 <option value="1">1 (Strongly Disagree)</option>
@@ -151,6 +211,8 @@
 
                         <div class="input-field col s12">
                             <h3>Question 9</h3>
+                            <h5>You think that everyone’s views should be respected regardless of whether they are supported
+                                by facts or not.</h5>
                             <select id="question9">
                                 <option value="" disabled selected>Choose your option</option>
                                 <option value="1">1 (Strongly Disagree)</option>
@@ -164,6 +226,7 @@
 
                         <div class="input-field col s12">
                             <h3>Question 10</h3>
+                            <h5>You feel more energetic after spending time with a group of people.</h5>
                             <select id="question10">
                                 <option value="" disabled selected>Choose your option</option>
                                 <option value="1">1 (Strongly Disagree)</option>
@@ -174,47 +237,46 @@
                             </select>
                         </div>
                         <br>
-
                         <div class="text-right">
-                            <button type="submit button" class="btn btn-primary btn-md" data-toggle="modal" data-target="#exampleModalCenter"  id="submit-btn">
-                                <span class="fa fa-fire"></span> Submit</button>
+                            <button type="submit button" class="btn btn-primary btn-md" data-toggle="modal" data-target="#exampleModalCenter" id="submit-btn">
+                                <span class="glyphicon glyphicon-thumbs-up"></span> Submit</button>
                         </div>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-
-        <footer class="footer">
-            <div class="container">
-                <p>
-                    <a href="/api/friends">API Friend List</a> |
-                    <a href="https://github.com/lesleyfon/FriendFinder" target="_blank">Github Repo</a>
-                </p>
-            </div>
-        </footer>
-    
-        <!-- Modal -->
-        <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h3>Best Match</h3>
-                        
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
-                    </div>
-                    <div class="modal-body">
-                        <p id="friendName"></p>
-                        <img src="" id="friendPhoto">
-                        </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <p>
+                <a href="/api/friends">API Friend List</a> |
+                <a href="https://github.com/lesleyfon/FriendFinder" target="_blank">Github Repo</a>
+            </p>
+        </div>
+    </footer>
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3>Best Match</h3>
+
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p id="friendName"></p>
+                    <img src="" id="friendPhoto" width=100% height=100%>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
 
     </div>
     <script>
@@ -225,33 +287,33 @@
                 name: $("#name").val().trim(),
                 photo: $("#link-photo").val().trim(),
                 scores: [
-                    
-                   $("#question1").val(),
-                   $("#question2").val(),
-                   $("#question3").val(),
-                   $("#question4").val(),
-                   $("#question5").val(),
-                   $("#question6").val(),
-                   $("#question7").val(),
-                   $("#question8").val(),
-                   $("#question9").val(),
-                   $("#question10").val(),
-                 
+
+                    $("#question1").val(),
+                    $("#question2").val(),
+                    $("#question3").val(),
+                    $("#question4").val(),
+                    $("#question5").val(),
+                    $("#question6").val(),
+                    $("#question7").val(),
+                    $("#question8").val(),
+                    $("#question9").val(),
+                    $("#question10").val(),
+
                 ]
             };
-        
-            $.post("/api/friends", userInput, function(data){
+
+            $.post("/api/friends", userInput, function (data) {
                 console.log(data)
                 $("#friendName").text(data.name);
                 $("#friendPhoto").attr("src", data.photo);
                 // console.log(data)
                 //data = newfriend object
 
-                
-                
+
+
             });
 
-        
+
         });
 
     </script>
